@@ -1,0 +1,30 @@
+Christopher Katnic
+894-68-7516
+chris.katnic@gmail.com
+CPSC 386, Term Project
+
+Introduction: Dungeon Runner is a simple dungeon crawler built around the pygame 
+module. The purpose of this project was to create a nontrivial game from the 
+ground up that implemented lessons learned in class. In addition, this project
+provided an excellent prompt to implement software design principles taught
+in CPSC 462, which I challenged myself to do.
+
+Preconditions: In addition to the standard python installation, the software 
+requires that the pygame module has been downloaded. It can be acquired from 
+http://www.pygame.org/
+
+Installation: Unzip the game into any directory. Then, open a command prompt
+window inside the DungeonRunner directory, and enter the following command:
+
+python creategame.py
+
+Rules: The player may move using the WASD keys along the corridor generated
+every time a new floor loads. In battle, the player may only use the 'a' and
+'h' keys to attack and heal, and must remain in battle until a character dies.
+The player may not return to a previous floor visited, only further down.
+Every battle shall begin with the player's turn, and alternate between the
+player and the enemy. The player may attack or heal, and the enemy will always attack
+If the player wins, they will level up, and receive a bonus heal.
+If the player loses, the game will show the gameover splash screen, and exit.
+
+Features and Bugs: Currently there are no additional features, and no known bugs.
